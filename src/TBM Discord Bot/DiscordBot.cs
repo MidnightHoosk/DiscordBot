@@ -26,7 +26,9 @@ namespace TBM_Discord_Bot
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.ConnectAsync();
-            
+
+            await client.SetStatusAsync(UserStatus.Idle);
+            await client.SetGameAsync("Message !help for help");
         }
     }
 }

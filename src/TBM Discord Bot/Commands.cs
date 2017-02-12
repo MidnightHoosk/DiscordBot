@@ -23,8 +23,9 @@ namespace TBM_Discord_Bot
         {
             commands = new CommandService();
             _map.Add(commands);
-
+            
             var client = _map.Get<DiscordSocketClient>();
+
             client.MessageReceived += HandleCommand;
 
             await commands.AddModulesAsync(Assembly.GetEntryAssembly());
