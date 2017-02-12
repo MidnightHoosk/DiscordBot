@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E17B3BA6-44B8-4CE8-ABEB-13749EBDE801}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B31DFF9-7D11-45DF-8EE6-0DE76E4488FD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TBM Discord Bot", "src\TBM Discord Bot\TBM Discord Bot.xproj", "{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDB9667A-DABB-42F0-A1FA-40BB9E4A6ACA} = {E17B3BA6-44B8-4CE8-ABEB-13749EBDE801}
+	EndGlobalSection
+EndGlobal
